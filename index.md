@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# Smart Data Platform
 
-You can use the [editor on GitHub](https://github.com/Chicago/smart-data-platform/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Below are links to the principal components of the [Smart Data Plaform](http://mayorschallenge.bloomberg.org/ideas/the-chicago-smartdata-platform/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The project is developed through a consortium of partners, including University of Chicago, Argonne National Laboratories, DePaul University, University of Illinois at Chicago, and Smart Chicago Collaborative. Each institution owns the code developed, but have made it open source.
 
-### Markdown
+## Components
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Smart Data Platform consists of several principal components: a user interface which allows users to explore historical data as well as future predictions, analytics services which actually performs the predictions, ontology layer which combines data (namely, matches all business-level data with any records pertaining to businesses), and a data services layer which stores data and makes it available through an API.
 
-```markdown
-Syntax highlighted code block
+![SDP Architecture](images/smart_data_platform_architecture.png)
+[Visio file]("docs/Smart Data Platform Architecture.vsd")
 
-# Header 1
-## Header 2
-### Header 3
+### User Interface
+Provides a user interface that lets users navigate data from multiple sources on a simple, easy to use map.
 
-- Bulleted
-- List
+* [OpenGrid](www.opengrid.io) ([repo](www.github.com/Chicago/opengrid)) - City of Chicago
+* [OpenGrid-Plenario service layer repositories](https://github.com/smartchicago/opengrid-svc-plenario) - Smart Chicago Collaborative
 
-1. Numbered
-2. List
+### Analytics Services
+Allows users to fetch data and find features that predict binary outcomes (e.g., inspections) with minimal human involvement.
 
-**Bold** and _Italic_ and `Code` text
+* [ml-city](https://xgitlab.cels.anl.gov/uda/ml-city) - Argonne National Laboratories
+* [predictions.json](https://github.com/Chicago/sdp-predictions.json)
 
-[Link](url) and ![Image](src)
-```
+### Ontology Layer
+Takes raw data from Plenario and combines all records related to businesses in a single file.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+* [GIVA repo](https://gitlab.com/advis/giva) - University of Illinois, Chicago
+* businesses.json
 
-### Jekyll Themes
+### Data Services
+Stores location and event data from multiple sources and provides it through an easy API.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Chicago/smart-data-platform/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* [Plenar.io](http://plenar.io/) ([repo](https://github.com/UrbanCCD-UChicago/plenario)) - University of Chicago, Computation Institute
 
-### Support or Contact
+## Acknowledgements
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Smart Data Plaform is principally funded by the Bloomberg Philanthropies through the [Mayor's Challenge award](http://mayorschallenge.bloomberg.org/).
