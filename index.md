@@ -9,12 +9,12 @@ The project is developed through a consortium of partners, including University 
 Smart Data Platform consists of several principal components: a user interface which allows users to explore historical data as well as future predictions, analytics services which actually performs the predictions, ontology layer which combines data (namely, matches all business-level data with any records pertaining to businesses), and a data services layer which stores data and makes it available through an API.
 
 ![SDP Architecture](images/smart_data_platform_architecture.png)
-[Visio file]("docs/Smart Data Platform Architecture.vsd")
+[Visio file](docs/Smart Data Platform Architecture.vsd)
 
 ### User Interface
 Provides a user interface that lets users navigate data from multiple sources on a simple, easy to use map.
 
-* [OpenGrid](www.opengrid.io) ([repo](www.github.com/Chicago/opengrid)) - City of Chicago
+* [OpenGrid](http://opengrid.io) ([repo](https://github.com/Chicago/opengrid)) - City of Chicago
 * [OpenGrid-Plenario service layer repositories](https://github.com/smartchicago/opengrid-svc-plenario) - Smart Chicago Collaborative
 
 ### Analytics Services
