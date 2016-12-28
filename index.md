@@ -9,7 +9,7 @@ Below are links to the principal components of the [Smart Data Plaform](http://m
 Smart Data Platform consists of several principal components: a user interface which allows users to explore historical data as well as future predictions, analytics services which actually performs the predictions, ontology layer which combines data (namely, matches all business-level data with any records pertaining to businesses), and a data services layer which stores data and makes it available through an API.
 
 ![SDP Architecture](images/smart_data_platform_architecture.png)
-[Visio file](docs/Smart Data Platform Architecture.vsd)
+[Download original file (Visio)](docs/Smart Data Platform Architecture.vsd)
 
 ### User Interface
 Provides a user interface that lets users navigate data from multiple sources on a simple, easy to use map.
