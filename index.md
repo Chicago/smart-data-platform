@@ -1,8 +1,8 @@
 # Smart Data Platform
 
-Below are links to the principal components of the [Smart Data Plaform](http://mayorschallenge.bloomberg.org/ideas/the-chicago-smartdata-platform/).
+Smart Data Platform helps automate analytics in cities. The platform grabs data from multiple city systems which allows users to explore in a single map and provides predictions to help cities operate efficiently and practively.
 
-The project is developed through a consortium of partners, including University of Chicago, Argonne National Laboratories, DePaul University, University of Illinois at Chicago, and Smart Chicago Collaborative. Each institution owns the code developed, but have made it open source.
+Below are links to the principal components of the [Smart Data Plaform](http://mayorschallenge.bloomberg.org/ideas/the-chicago-smartdata-platform/). The project is developed through a consortium of partners, including University of Chicago, Argonne National Laboratories, DePaul University, University of Illinois at Chicago, and Smart Chicago Collaborative. Each institution owns the code developed, but have made it open source.
 
 ## Components
 
@@ -27,7 +27,7 @@ Allows users to fetch data and find features that predict binary outcomes (e.g.,
 Takes raw data from Plenario and combines all records related to businesses in a single file.
 
 * [GIVA repo](https://gitlab.com/advis/giva) - University of Illinois, Chicago
-* businesses.json
+* [businesses.json](https://github.com/Chicago/sdp-business.json)
 
 ### Data Services
 Stores location and event data from multiple sources and provides it through an easy API.
