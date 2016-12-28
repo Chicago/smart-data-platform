@@ -27,7 +27,7 @@ Allows users to fetch data and find features that predict binary outcomes (e.g.,
 Takes raw data from Plenario and combines all records related to businesses in a single file.
 
 * [GIVA repo](https://gitlab.com/advis/giva) - University of Illinois, Chicago
-* [businesses.json](https://github.com/Chicago/sdp-business.json)
+* [business.json](https://github.com/Chicago/sdp-business.json)
 
 ### Data Services
 Stores location and event data from multiple sources and provides it through an easy API.
