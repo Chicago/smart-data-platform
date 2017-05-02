@@ -22,6 +22,7 @@ Allows users to fetch data and find features that predict binary outcomes (e.g.,
 
 * [ml-city](https://xgitlab.cels.anl.gov/uda/ml-city) - Argonne National Laboratories
 * [predictions.json](https://github.com/Chicago/sdp-predictions.json)
+* [Feature Fetcher](https://github.com/Chicago/sdp-feature-fetcher)
 
 ### Ontology Layer
 Takes raw data from Plenario and combines all records related to businesses in a single file.
