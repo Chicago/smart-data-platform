@@ -20,7 +20,7 @@ Provides a user interface that lets users navigate data from multiple sources on
 ### Analytics Services
 Allows users to fetch data and find features that predict binary outcomes (e.g., inspections) with minimal human involvement.
 
-* [ml-city](https://xgitlab.cels.anl.gov/uda/ml-city) - Argonne National Laboratories
+* [SPUDS](https://xgitlab.cels.anl.gov/groups/urban-analytics) - Argonne National Laboratories
 * [predictions.json](https://github.com/Chicago/sdp-predictions.json)
 * [Feature Fetcher](https://github.com/Chicago/sdp-feature-fetcher)
 
